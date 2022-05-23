@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1653000381 source:c:\users\pedro.lima1\desktop\lista2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1653329193 source:c:\users\tag-991\desktop\programacao-procedimental\lista2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
