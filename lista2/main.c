@@ -167,6 +167,68 @@ int main()
         printf("Emprestimo nao concedido\n");
     }
     */
+
+    /*
+    10. Faça um programa que receba a altura e o sexo de uma pessoa e calcule e mostre seu peso
+    ideal, utilizando as seguintes fórmulas (onde h corresponde à altura):
+     Homens: (72,7 * h) – 58,0
+     Mulheres: (62,1 * h) – 44,7
+
+        float a=0;
+        char b;
+        printf("Digite sua altura => ");
+        scanf("%f",&a);
+        printf("Homem (H) ou Mulher (M)? => ");
+        scanf(" %c",&b);
+
+        if(b == "b"){
+          printf("peso ideal => %.2f\n",(72.7 * a)- 58.0);
+        }else{
+           printf("peso ideal => %.2f\n",(62.1 * a)- 44.7);
+        }
+    */
+    /*
+    11. Escreva um programa que leia um número inteiro maior do que zero e devolva, na tela, a
+    soma de todos os seus algarismos. Por exemplo, ao número 251 corresponderá o valor 8 (2 + 5 + 1).
+    Se o número lido não for maior do que zero, o programa terminará com a mensagem:
+    “Número inválido”
+
+    int a,soma=0;
+   scanf("%d",&a);
+   if(a>0){
+       while(a>0){
+       soma=soma+a%10;
+       a=a/10;
+       }
+   printf("%d\n",soma);
+   }else{
+       printf("Numero invalido\n");
+   }
+    */
+
+    /*
+    12. Ler um número inteiro. Se o número lido for negativo, escreva a mensagem “Número
+    inválido”. Se o número for positivo, calcular o logaritmo deste número.
+
+
+    int a;
+    float b=0.00;
+   scanf("%d",&a);
+   if(a>0){
+        b = log(a);
+       printf("%.2f\n",b);
+   }else{
+       printf("Numero invalido\n");
+   }
+    */
+
+    /*
+    13. Faça um algoritmo que calcule a média ponderada das notas de 3 provas. A primeira e a
+    segunda prova têm peso 1 e a terceira tem peso 2. Ao final, mostrar a média do estudante e
+    indicar se o estudante foi aprovado ou reprovado. A nota para aprovação deve ser igual ou
+    superior a 60 pontos.
+
+    */
    system("pause");
    return 0;
 }
